@@ -1,0 +1,15 @@
+/**
+ * @file    dim_sensor_adc_voltage.idl
+ * @author  WMS + APS
+ * @date    OCT 2013
+ * @brief   Define sensor ADC voltage object.
+ */
+
+ 
+struct SensorADCVoltage
+{   
+  string<100> usi; //@key
+  double value[3];
+}; //@top-level true
+
+
